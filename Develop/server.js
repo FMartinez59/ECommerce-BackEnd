@@ -2,7 +2,7 @@ const express = require("express");
 const routes = require("./routes");
 // import sequelize connection
 const sequelize = require("./config/connection");
-console.log(sequelize)
+console.log(sequelize);
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -14,9 +14,7 @@ app.use(routes);
 // sync sequelize models to the database, then turn on the server
 sequelize
   .sync({
-    //force: false alone does not sync the schema, you need alter: true
     force: false,
-    alter: true
   })
   .then(() => {
     app.listen(PORT, () => {
