@@ -78,6 +78,7 @@ router.post("/", async (req, res) => {
 // update product
 router.put("/:id", async (req, res) => {
   // update product data
+  console.log(req.body)
   await Product.update(req.body, {
     where: {
       id: req.params.id,

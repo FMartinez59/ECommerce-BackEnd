@@ -3,7 +3,7 @@
 ## The purpose of this challenge is to build a back end for an e-commerce site by modifying starter code. I'll configure a working Express.js API to use Sequelize to interact with a MySQL database.
 
 ## Heres how it works
-
+https://drive.google.com/file/d/1mTeTsUnLGQKpn9QqyfZw3E_s3gwvhi1n/view
 
 ## POINTS OF INTEREST 
 - GIVEN a functional Express.js API
